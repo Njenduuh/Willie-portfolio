@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Weather Dashboard",
+    "desc": "A responsive weather application built with modern frontend technologies.",
+    "image": "weather_dashboard",
+    "category": "frontend",
+    "links": {
+      "view": "https://wetter-app-wilsonnkabangis-projects.vercel.app/",
+      "code": "https://github.com/Njenduuh"
+    }
+  },
+  {
+    "name": "MARK LY BINGWA SERVICES",
+    "desc": "A promo site for a fictional telco, featuring mobile bundles, M-Pesa simulation, and WhatsApp contact. Built for showcasing user flows in mobile commerce.",
+    "image": "markly_bundles",
+    "category": "frontend",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Developer Portfolio",
+    "desc": "A clean, responsive portfolio to showcase my frontend skills and personality. Includes theme toggle, smooth scroll, animations, and a working contact form.",
+    "image": "portfolio_preview",
+    "category": "frontend",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]
