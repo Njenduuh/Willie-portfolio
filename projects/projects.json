@@ -6,7 +6,7 @@
     "category": "frontend",
     "links": {
       "view": "https://wetter-app-wilsonnkabangis-projects.vercel.app/",
-      "code": "https://github.com/Njenduuh"
+      "code": "https://github.com/Njenduuh/wetter-app.git"
     }
   },
   {
@@ -15,8 +15,8 @@
     "image": "markly_bundles",
     "category": "frontend",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://mark-ly-bingwa-services.vercel.app/",
+      "code": "https://github.com/Njenduuh/MARK-LY-BINGWA-SERVICES.git"
     }
   },
   {
@@ -25,8 +25,8 @@
     "image": "portfolio_preview",
     "category": "frontend",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://front-end-potfolio.vercel.app/",
+      "code": "https://github.com/Njenduuh/front-end-potfolio.git"
     }
   }
 ]
