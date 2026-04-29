@@ -58,24 +58,28 @@ $(document).ready(function () {
     // Change favicon and title on visibility change
     document.addEventListener('visibilitychange', function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Collins Otieno";
+            document.title = "Wilson Kabangi | AI Builder & Full Stack Developer";
             $("#favicon").attr("href", "assets/images/favicon.png");
         } else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Come Back — Let's Build Something 🚀";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
 
     // Typed.js effect for typing animation
-var typed = new Typed(".typing-text", {
+    var typed = new Typed(".typing-text", {
         strings: [
-            "frontend development", 
-            "backend development",
+            "build AI Agents.",
+            "design LangChain Workflows.",
+            "build Automation Systems.",
+            "develop Full Stack Applications.",
+            "ship Scalable Digital Solutions.",
+            "engineer Multi-Agent Systems.",
         ],
         loop: true,
-        typeSpeed: 50,
-        backSpeed: 25,
-        backDelay: 500,
+        typeSpeed: 55,
+        backSpeed: 28,
+        backDelay: 1200,
     });
 
     // Fetch skills and projects data

@@ -243,6 +243,16 @@ header .navbar ul li a:hover {
   font-weight: 600;
   padding: 1rem 0;
 }
+/* Hero tagline — AI Builder | Full Stack Developer | Automation Engineer */
+.home .content .hero-tagline {
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: #2506ad;
+  letter-spacing: 0.04rem;
+  padding: 0.4rem 0 0.8rem 0;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
 .home .btn {
   margin-top: 1rem;
   position: absolute;
@@ -856,6 +866,23 @@ header .navbar ul li a:hover {
 .experience .content .desc p {
   font-size: 1.2rem;
 }
+/* Experience bullet point list */
+.exp-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+}
+.exp-list li {
+  font-size: 1.2rem;
+  padding: 0.3rem 0;
+  text-transform: none;
+  font-family: "Nunito", sans-serif;
+}
+.exp-list li::before {
+  content: "▸ ";
+  color: #02094b;
+  font-weight: 700;
+}
 /* view all button */
 .morebtn {
   display: flex;
@@ -934,6 +961,20 @@ header .navbar ul li a:hover {
 .contact {
   background: #e5ecfb;
   min-height: 60vh;
+}
+/* Contact CTA tagline */
+.contact-cta {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Nunito", sans-serif;
+  color: #020133;
+  margin: 1rem 0 2rem 0;
+  line-height: 1.7;
+  text-transform: none;
+}
+.contact-cta strong {
+  color: #2506ad;
+  font-size: 2rem;
 }
 .contact .container {
   max-width: 1050px;

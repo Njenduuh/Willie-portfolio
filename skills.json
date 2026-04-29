@@ -1,68 +1,122 @@
 [
     {
-        "name": "ReactJS",
+        "name": "AI Agents",
+        "icon": "https://img.icons8.com/fluency/48/artificial-intelligence.png"
+    },
+    {
+        "name": "LangChain",
+        "icon": "https://img.icons8.com/color/48/chain.png"
+    },
+    {
+        "name": "LangGraph",
+        "icon": "https://img.icons8.com/fluency/48/workflow.png"
+    },
+    {
+        "name": "Prompt Engineering",
+        "icon": "https://img.icons8.com/fluency/48/brain.png"
+    },
+    {
+        "name": "RAG Systems",
+        "icon": "https://img.icons8.com/fluency/48/database.png"
+    },
+    {
+        "name": "Vector Databases",
+        "icon": "https://img.icons8.com/fluency/48/data-configuration.png"
+    },
+    {
+        "name": "OpenAI API",
+        "icon": "https://img.icons8.com/fluency/48/chatgpt.png"
+    },
+    {
+        "name": "Claude API",
+        "icon": "https://img.icons8.com/fluency/48/robot-2.png"
+    },
+    {
+        "name": "Gemini API",
+        "icon": "https://img.icons8.com/color/48/google-logo.png"
+    },
+    {
+        "name": "Function Calling",
+        "icon": "https://img.icons8.com/fluency/48/api-settings.png"
+    },
+    {
+        "name": "Multi-Agent Systems",
+        "icon": "https://img.icons8.com/fluency/48/bot.png"
+    },
+    {
+        "name": "AI Automation",
+        "icon": "https://img.icons8.com/fluency/48/automatic.png"
+    },
+    {
+        "name": "React.js",
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
     },
-    {
-        "name": "ExpressJS",
-        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
-    },
-    {
-        "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
-    },
-   
-    
-    {
-        "name": "TailwindCSS",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
-    },
-    
     {
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
     {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-    },
-    {
-        "name": "Kotlin",
-        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
-    },
-    {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
-    },
-    {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
     },
-    
     {
-        "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+        "name": "Node.js",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
     },
     {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+        "name": "Express.js",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
     },
-    
     {
-        "name": "Heroku",
-        "icon": "https://img.icons8.com/color/48/000000/heroku.png"
+        "name": "FastAPI",
+        "icon": "https://img.icons8.com/color/48/api.png"
+    },
+    {
+        "name": "Tailwind CSS",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+    },
+    {
+        "name": "REST APIs",
+        "icon": "https://img.icons8.com/fluency/48/api.png"
+    },
+    {
+        "name": "Firebase",
+        "icon": "https://img.icons8.com/color/48/firebase.png"
+    },
+    {
+        "name": "Git & GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "Vercel",
+        "icon": "https://img.icons8.com/fluency/48/vercel.png"
     },
     {
         "name": "Netlify",
         "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
     },
-    
     {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+        "name": "NVIDIA NIM APIs",
+        "icon": "https://img.icons8.com/color/48/nvidia.png"
     },
     {
-        "name": "WordPress",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    }    
+        "name": "LLM App Development",
+        "icon": "https://img.icons8.com/fluency/48/artificial-intelligence.png"
+    },
+    {
+        "name": "AI Chatbot Development",
+        "icon": "https://img.icons8.com/fluency/48/chatbot.png"
+    },
+    {
+        "name": "API Integration",
+        "icon": "https://img.icons8.com/fluency/48/api-settings.png"
+    },
+    {
+        "name": "UI/UX Thinking",
+        "icon": "https://img.icons8.com/fluency/48/design.png"
+    },
+    {
+        "name": "SaaS Development",
+        "icon": "https://img.icons8.com/fluency/48/cloud-storage.png"
+    }
 ]
