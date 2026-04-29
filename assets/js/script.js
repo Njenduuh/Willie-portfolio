@@ -39,20 +39,25 @@ $(document).ready(function () {
         }, 500, 'linear');
     });
 
-    // EmailJS for contact form submission
+    // Formspree for contact form submission
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_mLoVBJ2RYpRC8ALnc");
-
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
         event.preventDefault();
+        
+        $.ajax({
+            url: "https://formspree.io/f/xdayqbpw",
+            method: "POST",
+            data: $(this).serialize(),
+            dataType: "json",
+            success: function(response) {
+                console.log('SUCCESS!', response);
+                document.getElementById("contact-form").reset();
+                alert("Form Submitted Successfully!");
+            },
+            error: function(error) {
+                console.log('FAILED...', error);
+                alert("Form Submission Failed! Please try again.");
+            }
+        });
     });
 
     // Change favicon and title on visibility change
@@ -114,10 +119,21 @@ $(document).ready(function () {
     function showProjects(projects) {
         let projectsContainer = document.querySelector("#work .box-container");
         let projectHTML = "";
+        // Icon mapping by category
+        const iconMap = {
+            ai: "fas fa-robot",
+            frontend: "fas fa-code",
+            backend: "fas fa-server",
+            fullstack: "fas fa-layer-group",
+        };
         projects.slice(0, 10).filter(project => project.category !== "android").forEach(project => {
+            const icon = iconMap[project.category] || "fas fa-project-diagram";
             projectHTML += `
             <div class="box tilt">
-                <img draggable="false" src="./assets/images/${project.image}.jpg" alt="${project.name} project" />
+                <div class="project-placeholder">
+                    <i class="${icon}"></i>
+                    <span>${project.category || 'project'}</span>
+                </div>
                 <div class="content">
                     <div class="tag">
                         <h3>${project.name}</h3>
